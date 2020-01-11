@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NOMSS</title>
+    <style>
+        body { font-family: "Open Sans","Helvetica Neue","Helvetica",sans-serif; }
+        h1, h2 { font-family: "Roboto","Helvetica Neue","Helvetica",sans-serif; }
+        .nibGreen { color: #009623; font-weight: bold; }
+        .result { font-family: Consolas; font-weight: bold; }
+        #orderResult { font-weight: normal; }
+        hr { border: 1px solid #CCCCCC; height: 1px; }
+    </style>
+</head>
+<body>
+    <h1><span class="nibGreen">nib</span> Tech Challenge</h1>
+    <h2>Candidate: Bill Thomas</h2>
+    <p>This application sends a POST to endpoint <span class="result">/api/v1/warehouse/fulfilment</span> with order ID data. For each order ID sent, items in the order are compared against products available on hand. If there are not enough products on hand, the order will be unfulfillable. The endpoint may be accessed via a API tester such as Postman or Talend API tester chrome plugin, or tested below.</p> 
+    <p>
+        Notes:
+        <ul>
+            <li>NancyFx is used for API purposes.</li>
+            <li>Newtonsoft.Json (JSON.NET) is used for JSON parsing purposes.</li>
+            <li>To access the endpoint, ensure the console application is running.</li>
+            <li>Allow the Network Command Shell to run to enable self hosting</li>
+        </ul>
+    </p>
+    <p><hr /></p>
+
+    <p>Order ID: <input type="text" name="orderID" id="orderID" value="1122" /> (enter a list of order IDs separated by commas without spaces, e.g. 1122,1123)</p>
+    <p><input type="button" onclick="test();" value="process orders" /></p>
+    <p id="orderResult" class="result">...</p>
+
+    <script type="text/javascript">
+
+        function test() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "http://localhost:2020/api/v1/warehouse/fulfilment", true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            var orders = document.getElementById("orderID").value;
+            var sJSON = '{ "orderIds" : [' + orders + '] }';
+            xhr.send(sJSON);
+            xhr.onload = function () {
+                var data = this.responseText;
+                document.getElementById("orderResult").innerHTML = data;
+            }
+        }
+
+    </script>
+</body>
+</html>
