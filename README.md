@@ -4,7 +4,13 @@ This application sends a POST to endpoint `/api/v1/warehouse/fulfilment` with or
 
 ## Notes:
 
+* C# 
+* .NET Framework 4.5.2
 * NancyFx is used for API purposes.
 * Newtonsoft.Json (JSON.NET) is used for JSON parsing purposes.
 * To access the endpoint, ensure the console application is running.
 * Allow the Network Command Shell to run to enable self hosting
+
+## Run app
+
+To run the application, download files in the bin/debug folder onto a windows machine and run the executable file `nib.techChallenge.BillThomas.exe`
