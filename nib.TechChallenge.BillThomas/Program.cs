@@ -106,7 +106,7 @@ namespace nib.TechChallenge.BillThomas
                     //report on unfulfilled orders
                     unfulfilledOrderCount = unfillableOrders.Count;
                     Order oUnfulfilled = new Order();
-                    string unfillableOrderReport = oUnfulfilled.unforfilledReport(unfillableOrders);
+                    string unfillableOrderReport = oUnfulfilled.unfulfilledReport(unfillableOrders);
 
                     return "{ \"orderCount\": " + totalOrderCount + ", \"fulfilledOrderCount\": " + fulfilledOrderCount + ", \"attemptedOrders\": " + ordersToProcess + ", \"unfulfilledOrderCount\": " + unfulfilledOrderCount + unfillableOrderReport + " }";
                 }

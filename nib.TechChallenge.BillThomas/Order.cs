@@ -23,7 +23,7 @@ namespace nib.TechChallenge.BillThomas
             items = oItems;
         }
 
-        public string unforfilledReport(List<Order> unfulfilledOrders)
+        public string unfulfilledReport(List<Order> unfulfilledOrders)
         {
             string report = "";
          
