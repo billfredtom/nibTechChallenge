@@ -10,6 +10,7 @@ This application sends a POST to endpoint `/api/v1/warehouse/fulfilment` with or
 * Newtonsoft.Json (JSON.NET) is used for JSON parsing purposes.
 * To access the endpoint, ensure the console application is running.
 * Allow the Network Command Shell to run to enable self hosting
+* Test project added with small sample unit tests
 
 ## Run app
 
