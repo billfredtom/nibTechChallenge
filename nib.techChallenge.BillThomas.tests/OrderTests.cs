@@ -24,7 +24,7 @@ namespace nib.TechChallenge.BillThomas.tests
             }
 
             Order orderReport = new Order();
-            string x = orderReport.unforfilledReport(oList);
+            string x = orderReport.unfulfilledReport(oList);
 
      
         }
