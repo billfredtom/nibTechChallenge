@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace nib.TechChallenge.BillThomas
 {
-    class Product
+    public class Product
     {
         public int ProductId { get; set; }
         public string Description { get; set; }
@@ -39,7 +39,7 @@ namespace nib.TechChallenge.BillThomas
 
         public Product SelectByProductId(int pId, List<Product> pList)
         {
-            Product selectedProduct = pList.FirstOrDefault(p => p.ProductId == pId);
+            Product selectedProduct = pList.First(p => p.ProductId == pId);
             return selectedProduct; 
         }
 

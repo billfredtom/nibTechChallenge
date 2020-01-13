@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nib.TechChallenge.BillThomas
 {
-    class OrderItem
+    public class OrderItem
     {
         public int OrderId { get; set; }
         public int ProductId { get; set; }
