@@ -1,0 +1,15 @@
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\obj\Debug\nib.techChallenge.BillThomas.tests.csprojResolveAssemblyReference.cache
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\content\home.html
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\content\data.json
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\nib.techChallenge.BillThomas.tests.dll
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\nib.techChallenge.BillThomas.tests.pdb
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\nib.TechChallenge.BillThomas.exe
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\Nancy.Hosting.Self.dll
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\Nancy.dll
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\nib.TechChallenge.BillThomas.pdb
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\Nancy.Hosting.Self.xml
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\Nancy.xml
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\obj\Debug\nib.techChallenge.BillThomas.tests.dll
+C:\Users\Definiti\Documents\Visual Studio 2015\Projects\nib.TechChallenge.BillThomas\nib.techChallenge.BillThomas.tests\obj\Debug\nib.techChallenge.BillThomas.tests.pdb
